@@ -1,0 +1,30 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Customizing Header Section */
+header {
+    background: linear-gradient(45deg, #333, #555);
+    color: white;
+}
+
+.profile img {
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Projects Section */
+#projects img {
+    transition: transform 0.3s ease;
+}
+
+#projects img:hover {
+    transform: scale(1.05);
+}
+
+/* Customizing Footer */
+footer {
+    background-color: #333;
+    color: white;
+}
